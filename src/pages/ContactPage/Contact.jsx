@@ -11,7 +11,7 @@ import { pageAnimation, fade2, titleAnimation } from "../../animation";
 
 const Contact = () => {
   return (
-    <motion.div
+    <motion.section
       exit="exit"
       variants={pageAnimation}
       initial="hidden"
@@ -45,7 +45,7 @@ const Contact = () => {
         </div>
       </ContactStyle>
       <Footer />
-    </motion.div>
+    </motion.section>
   );
 };
 export default Contact;

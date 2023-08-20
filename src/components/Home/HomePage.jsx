@@ -15,7 +15,7 @@ const HomePage = () => {
     };
 
     return(
-        <motion.div exit='exit' variants={pageAnimation} initial='hidden' animate='show'>
+        <motion.section exit='exit' variants={pageAnimation} initial='hidden' animate='show'>
         <HomeContainer>
         <div className="home-container">
         <div className="description-container">
@@ -35,7 +35,7 @@ const HomePage = () => {
         </HomeContainer>
         <Footer/>
         <ScrollTop/>
-        </motion.div>
+        </motion.section>
       )
   };
   export default HomePage;

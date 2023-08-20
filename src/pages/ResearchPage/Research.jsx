@@ -10,7 +10,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Research = () => {
   return (
-    <motion.div
+    <motion.section
       exit="exit"
       variants={pageAnimation}
       initial="hidden"
@@ -29,7 +29,7 @@ const Research = () => {
         </NavLink>
       </ResearchStyle>
       <Footer />
-    </motion.div>
+    </motion.section>
   );
 };
 export default Research;
