@@ -17,7 +17,7 @@ const HomePage = () => {
     return(
         <motion.section exit='exit' variants={pageAnimation} initial='hidden' animate='show'>
         <HomeContainer>
-        <div className="home-container">
+        <main className="home-container">
         <div className="description-container">
         <motion.h1 variants={titleAnim1}>Dr.</motion.h1> 
         <motion.h1 variants={titleAnim1}>Bianca-Iulia</motion.h1>
@@ -31,7 +31,7 @@ const HomePage = () => {
         <div className="img-container">
         <motion.img variants={photoAnim} initial='hidden' animate='show' src={profileImg} alt='profile portrait'/>
         </div>
-        </div>
+        </main>
         </HomeContainer>
         <Footer/>
         <ScrollTop/>
