@@ -40,11 +40,12 @@ export const HomeContainer=styled(motion.section)`
   }
 
     h1{
-    font-size:clamp(2rem,5vw,7rem);
+    font-size:clamp(1.5rem,3vw,4rem);
     font-weight:500;
     text-transform: capitalize;
     letter-spacing: .1rem;
     overflow:hidden;
+    text-align:start;
    
 }
   }

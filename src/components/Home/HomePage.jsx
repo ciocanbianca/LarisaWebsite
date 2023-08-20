@@ -19,7 +19,8 @@ const HomePage = () => {
         <HomeContainer>
         <div className="home-container">
         <div className="description-container">
-        <motion.h1 variants={titleAnim1}>Dr. Bianca I.</motion.h1>
+        <motion.h1 variants={titleAnim1}>Dr.</motion.h1> 
+        <motion.h1 variants={titleAnim1}>Bianca-Iulia</motion.h1>
         <motion.h1 variants={titleAnim}>Ciocan </motion.h1>
         <motion.p variants={fade} initial='hidden' animate='show'>
          {readMore? info:`${info.substring(0,300)}...`}
