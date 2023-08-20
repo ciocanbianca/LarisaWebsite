@@ -18,7 +18,7 @@ const Navigation = () => {
 
     return (
         <Nav>
-        <motion.div  className="nav-header">
+        <motion.section className="nav-header">
             <div className="nav-flex">
             <button className='nav-toggle' onClick={handleOnClickNavigation}>
             {isNavOpen? <IoMdClose className='close'/> : <HiOutlineMenuAlt2 />}
@@ -53,7 +53,7 @@ const Navigation = () => {
                 </li>
             </ul>
             </div>
-            </motion.div>
+            </motion.section>
         </Nav>
     )
 };

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
 
-export const ContactStyle = styled(motion.section)`
+export const ContactStyle = styled(motion.main)`
   margin: 10rem auto 10rem auto;
   z-index: 9;
   box-shadow: 0px 0px 20px 0px #050505;

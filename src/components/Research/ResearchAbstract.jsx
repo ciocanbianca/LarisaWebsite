@@ -8,7 +8,7 @@ import ScrollTop from '../ScrollTop';
 const ResearchAbstract = () => {
 
     return(
-        <motion.section exit='exit' variants={pageAnimation} initial='hidden' animate='show'>
+        <motion.div exit='exit' variants={pageAnimation} initial='hidden' animate='show'>
         <SectionWrapper>
            <div className="container">
             {galaxiesInfo.map(item=>{
@@ -30,7 +30,7 @@ const ResearchAbstract = () => {
         </SectionWrapper>
         <Footer/>
         <ScrollTop/>
-        </motion.section>
+        </motion.div>
     )
 };
 
